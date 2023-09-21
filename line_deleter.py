@@ -3,7 +3,7 @@ import re
 input_file = 'text.txt'
 output_file = 'less_text.txt'
 #in this case lines before 202X need to be deleted
-keyword = r'.*202[0-9]$'
+keyword = r'.*202[0-9].*$'
 lines_to_delete_before = 4
 encoding = 'utf-8'  
 try:
